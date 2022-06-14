@@ -51,6 +51,7 @@ body {
 	color: var(--title-text-color);
 	background-color: var(--primary-white-color);
 	border: inherit;
+	cursor: pointer;
 }
 
 .button.primary {
