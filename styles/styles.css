@@ -1,0 +1,218 @@
+:root {
+	--accent-color: #2196f3;
+	--primary-text-color: #212121;
+	--secondary-text-color: #757575;
+	--secondary-text-white: #ffffff;
+	--primary-bg-white: #ffffff;
+	--secondary-bg-grey: #f5f4fa;
+	--secondary-bg-black: #2f303a;
+}
+
+body {
+	font-family: Raleway, sans-serif;
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	background-color: var(--primary-bg-white);
+	color: var(--primary-text-color);
+	letter-spacing: 0.03px;
+}
+
+/* УТИЛИТЫ */
+
+.list {
+	list-style: none;
+	font-style: normal;
+}
+.link {
+	text-decoration: none;
+	color: inherit;
+	outline: none;
+}
+.current {
+	color: var(--accent-color);
+}
+
+.title {
+	color: var(--primary-text-color);
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.16;
+}
+
+.button {
+	font-family: Roboto, sans-serif;
+	color: var(--primary-text-color);
+	background-color: var(--secondary-bg-grey);
+	cursor: pointer;
+	border: none;
+	text-align: center;
+	outline: none;
+}
+.font-zero {
+	font-size: 0;
+}
+
+.text {
+	color: var(--secondary-text-color);
+}
+/* HEADER */
+.header .logo {
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+	font-family: Raleway, sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+}
+
+.logo-web {
+	color: var(--accent-color);
+}
+.site-nav,
+.cont-nav {
+	letter-spacing: 0.02px;
+}
+
+.site-nav {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+	color: var(--accent-color);
+}
+
+.cont-nav {
+	color: var(--secondary-text-color);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+}
+
+.cont-nav .link:hover,
+.cont-nav .link:focus {
+	color: var(--accent-color);
+}
+
+/* MAIN */
+
+/* HERO */
+.hero {
+	background-color: var(--secondary-bg-black);
+}
+.hero .title {
+	color: var(--secondary-text-white);
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	letter-spacing: 0.06px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.hero .button {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.8;
+	letter-spacing: 0.06px;
+}
+
+.button.primary {
+	color: var(--secondary-text-white);
+	background-color: var(--accent-color);
+}
+
+/* BENEFITS */
+.benefits .title {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
+}
+
+.benefits .text {
+	font-size: 14px;
+	line-height: 2;
+}
+
+/* WHAT WE DO */
+
+.work .title {
+	text-align: center;
+}
+
+/* OUR TEAM */
+.team {
+	background-color: var(--secondary-bg-grey);
+	text-align: center;
+}
+
+.team-list .title {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.18;
+}
+
+.team-list .text {
+	font-size: 16px;
+	line-height: 1.18;
+}
+
+/* FOOTER */
+.footer {
+	background-color: var(--secondary-bg-black);
+}
+
+.logo-studio {
+	color: var(--secondary-text-white);
+}
+.address {
+	font-size: 14px;
+	line-height: 2;
+}
+
+.address-link {
+	text-decoration: none;
+	color: var(--secondary-text-white);
+}
+
+.footer .link {
+	color: rgba(255, 255, 255, 0.6);
+	line-height: 2;
+}
+.address .link:hover {
+	color: var(--accent-color);
+}
+.address .link:focus {
+	color: var(--accent-color);
+}
+/* PORTFOLIO STYLES */
+.exempl .button {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.6;
+	letter-spacing: 0.03px;
+}
+
+.exempl .button:hover {
+	color: var(--secondary-text-white);
+	background-color: var(--accent-color);
+}
+.exempl .button:focus {
+	color: var(--secondary-text-white);
+	background-color: var(--accent-color);
+}
+.exempl .title {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+}
+.exempl .text {
+	font-size: 16px;
+	line-height: 1.8;
+}
